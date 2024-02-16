@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: Lastica, sans-serif;
+}
+
+.navbar {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    height: 100px;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.menu-button {
+    align-items: right;
+}
+
+#social-links img{
+    width: 60px;
+    height: 60px;
+}
