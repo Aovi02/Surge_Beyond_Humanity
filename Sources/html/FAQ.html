@@ -1,25 +1,73 @@
+<!DOCTYPE html>
 <html>
-    <header>
-        <title>Contactos y FAQ</title>
-        <a href="main.html">
-            <img src="../../Resources/Images/Logo_pag_web.png" alt="logo" style="height:100px;width:100px;">
-        </a>
-        <h3>MENU</h3>
-        <h1>
-            FAQ:
-        </h1>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Surge Game</title>
+        <!-- Link to your CSS file for styling -->
+        <link rel="stylesheet" type="text/css" href="../../Sources/css/comun.css"/>
+        <link rel="stylesheet" type="text/css" href="../../Sources/css/FAQ.css"/>
+    </head>
     <body>
-        <link rel="stylesheet" type="text/css" href="../../Sources/css/comun.css" />
-        <h2>1.¿PREGUNTA 1?</h2>
-        <p>RESPUESTA 1</p>
-        <h2>1.¿PREGUNTA 2?</h2>
-        <p>RESPUESTA 2</p>
-        <h2>1.¿PREGUNTA 3?</h2>
-        <p>RESPUESTA 3</p>
+    <nav class="navbar">
+        <!-- Logo -->
+        <a href="main.html">
+            <div class="logo">
+                <img src="../../Resources/Images/Logo_pag_web.png" alt="Surge Logo">
+            </div>
+        </a>
+    
+        <!-- Boton menu -->
+        <button class="menu-button">Menu</button>
+    </nav>
+
+    <div id="faq-section">
+        <title>Contactos y FAQ</title>
+        <h1>FAQ:</h1>
+        <div class="question">
+            <h2>1.¿PREGUNTA 1?</h2>
+            <p>RESPUESTA 1</p>
+        </div>
+        <div class="question">
+            <h2>1.¿PREGUNTA 1?</h2>
+            <p>RESPUESTA 1</p>
+        </div>
+        <div class="question">
+            <h2>1.¿PREGUNTA 1?</h2>
+            <p>RESPUESTA 1</p>
+        </div>
+    </div>
+
+    <div id="contact-section">
         <h2>CONTACTO:</h2>
         <p>MAIL:</p><input type="text" placeholder="Correo">
         <p>DUDA:</p><input type="text" placeholder="Titulo">
         <p>DESCRIPCIÓN:</p><input type="text" placeholder="Texto">
+    </div>
+
+    <!-- Footer, info legal y links -->
+    <footer class="footer">
+        <div id="social-links">
+            <div id="youtube-link">
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img src="../../Resources/Images/youtube_logo.png", alt="youtube logo">
+                </a>
+            </div>
+            <div id="instagram-link">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="../../Resources/Images/instagram_logo.png", alt="instagram logo">
+                </a>
+            </div>
+            <div id="twitter-link">
+                <a href="https://www.twitter.com/" target="_blank">
+                    <img src="../../Resources/Images/twitter_logo.png", alt="twitter logo">
+                </a>
+            </div>
+        </div>
+        <div class="legal-info">
+            <p>&copy; 2024 Surge Game. All rights reserved.</p>
+            <p>Privacy Policy | Terms of Service</p>
+        </div>
+    </footer>
     </body>
 </html>
