@@ -4,6 +4,13 @@ body{
     font-family: Lastica, sans-serif;
 }
 
+#menu-button {
+    padding: 30px;
+    background-color: #333;
+    color: #fff;
+    height: 100px;
+}
+
 .navbar {
     padding: 10px;
     background-color: #333;

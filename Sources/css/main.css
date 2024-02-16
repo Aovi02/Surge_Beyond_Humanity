@@ -6,9 +6,6 @@ a {
     text-decoration: none;
     color: white;
 }
-a:hover {
-
-}
 
 #banner video{
     width: 95em;
@@ -31,6 +28,3 @@ a:hover {
     font-size: 1.2em;
 }
 
-#menu-button {
-    
-}
