@@ -1,0 +1,75 @@
+/* Apply styling to all forms within the "user-info-forms" container */
+.user-info-forms form.info-form {
+    margin-bottom: 20px; /* Add some spacing between forms */
+}
+
+/* Style for the form labels */
+.user-info-forms form.info-form label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 5px; /* Add some spacing below labels */
+}
+
+/* Style for the form inputs */
+.user-info-forms .info-form input {
+    width: 300px; /* Set a specific width for the input fields */
+    padding: 8px; /* Add padding to the input fields */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow to the bottom and right edges */
+    border: 1px solid #ccc; /* Add a subtle border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+}
+
+/* Style for the heading */
+.user-info-forms h2 {
+    font-size: 1.5em; /* Increase heading font size */
+    margin-bottom: 15px; /* Add spacing below the heading */
+}
+
+/* Style for the cart summary container */
+.cart-summary {
+    max-width: 600px; /* Set a maximum width for better readability */
+}
+
+/* Style for the heading */
+.cart-summary h2 {
+    font-size: 1.8em; /* Increase heading font size for emphasis */
+    margin-bottom: 15px; /* Add spacing below the heading */
+}
+
+/* Style for the cart table */
+.cart-summary table {
+    width: 100%; /* Make the table take full width of the container */
+    border-collapse: collapse; /* Collapse table borders */
+    margin-bottom: 15px; /* Add spacing below the table */
+}
+
+/* Style for table header cells */
+.cart-summary th {
+    background-color: #f2f2f2; /* Add a light background color for the header cells */
+    padding: 10px; /* Add padding to header cells */
+    text-align: left; /* Align header text to the left */
+}
+
+/* Style for table data cells */
+.cart-summary td {
+    padding: 10px; /* Add padding to data cells */
+}
+
+/* Style for the total row */
+.cart-summary .total-row {
+    font-weight: bold; /* Make the total row text bold for emphasis */
+}
+
+/* Style for the purchase button */
+.cart-summary .purchase-button {
+    padding: 10px 20px; /* Add padding to the button for spacing */
+    background-color: white; /* Set the background color to white */
+    color: black; /* Set the text color to black */
+    border: 1px solid #333; /* Add a subtle border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    cursor: pointer; /* Add pointer cursor on hover */
+}
+
+/* Hover effect for the purchase button */
+.cart-summary .purchase-button:hover {
+    background-color: #f2f2f2; /* Change background color on hover */
+}

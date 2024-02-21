@@ -1,0 +1,51 @@
+/* Style for the main content container */
+.main-content {
+    max-width: 600px; /* Set a maximum width for better readability */
+    margin: 20px auto; /* Center the main content */
+}
+
+/* Style for the login and register sections */
+.login-section,
+.register-section {
+    margin-bottom: 20px; /* Add spacing between sections */
+}
+
+/* Style for the section headings */
+.login-section h2,
+.register-section h2 {
+    font-size: 1.8em; /* Increase heading font size for emphasis */
+    margin-bottom: 15px; /* Add spacing below the headings */
+}
+
+/* Style for the form labels */
+.login-form label,
+.register-form label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 5px; /* Add spacing below labels */
+}
+
+/* Style for the form inputs */
+.login-form input,
+.register-form input {
+    width: 100%; /* Make the input fields take full width of the container */
+    padding: 8px; /* Add padding to the input fields */
+    margin-bottom: 10px; /* Add spacing below the input fields */
+    box-sizing: border-box; /* Include padding and border in the input width */
+}
+
+/* Style for the login and register buttons */
+.login-button,
+.register-button {
+    padding: 10px 20px; /* Add padding to the buttons for spacing */
+    background-color: #4CAF50; /* Set a green background color */
+    color: white; /* Set the text color to white */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    cursor: pointer; /* Add pointer cursor on hover */
+}
+
+/* Hover effect for the buttons */
+.login-button:hover,
+.register-button:hover {
+    background-color: #45a049; /* Darken the background color on hover */
+}

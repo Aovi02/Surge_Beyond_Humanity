@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Surge Game</title>
         <!-- Link to your CSS file for styling -->
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="../css/comun.css" />
+        <link rel="stylesheet" type="text/css" href="../css/tienda.css" />
     </head>
     <body>
     <!-- Barra navegacion -->
@@ -20,7 +21,6 @@
         <!-- Boton menu -->
         <button class="menu-button">Menu</button>
     </nav>
-    <link rel="stylesheet" type="text/css" href="../../Sources/css/comun.css" />
 
     <div class="ultimas-ofertas">
         <h2>Gallery</h2>
@@ -30,17 +30,17 @@
         <div class="slideshow-container">
             <div class="slide fade">
                 <a href="enlace">
-                    <img src="gallery_image1.jpg" alt="Gallery Image 1">
+                    <img src="../../Resources/Images/A-39Tortoise.jpg" alt="Gallery Image 1">
                 </a>
             </div>
             <div class="slide fade">
                 <a href="enlace">
-                    <img src="gallery_image1.jpg" alt="Gallery Image 1">
+                    <img src="../../Resources/Images/Nebulosa_background.jpg" alt="Gallery Image 1">
                 </a>
             </div>
             <div class="slide fade">
                 <a href="enlace">
-                    <img src="gallery_image1.jpg" alt="Gallery Image 1">
+                    <img src="../../Resources/Images/Nakajima-Kikka.jpg" alt="Gallery Image 1">
                 </a>
             </div>
         </div>
@@ -68,31 +68,33 @@
     <!-- Right Section for Shop Items -->
     <div class="shop-section">
         <h2>Shop</h2>
-
+    
         <!-- Shop Item 1 -->
         <div class="shop-item">
-            <img src="item1.jpg" alt="Item 1">
-            <h3>Item 1</h3>
-            <p>Price: $10</p>
+            <div class="item-details">
+                <h3>Item 1</h3>
+                <p>Price: $10</p>
+            </div>
             <button class="details-button">Details</button>
         </div>
-
+    
         <!-- Shop Item 2 -->
         <div class="shop-item">
-            <img src="item2.jpg" alt="Item 2">
-            <h3>Item 2</h3>
-            <p>Price: $20</p>
+            <div class="item-details">
+                <h3>Item 2</h3>
+                <p>Price: $20</p>
+            </div>
             <button class="details-button">Details</button>
         </div>
-
+    
         <!-- Shop Item 3 -->
         <div class="shop-item">
-            <img src="item3.jpg" alt="Item 3">
-            <h3>Item 3</h3>
-            <p>Price: $15</p>
+            <div class="item-details">
+                <h3>Item 3</h3>
+                <p>Price: $15</p>
+            </div>
             <button class="details-button">Details</button>
         </div>
-        
         <!-- Add more shop items as needed -->
     </div>
 
@@ -100,12 +102,26 @@
 
 <!-- Footer, info legal y links -->
 <footer class="footer">
+    <div id="social-links">
+        <div id="youtube-link">
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="../../Resources/Images/youtube_logo.png", alt="youtube logo">
+            </a>
+        </div>
+        <div id="instagram-link">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="../../Resources/Images/instagram_logo.png", alt="instagram logo">
+            </a>
+        </div>
+        <div id="twitter-link">
+            <a href="https://www.twitter.com/" target="_blank">
+                <img src="../../Resources/Images/twitter_logo.png", alt="twitter logo">
+            </a>
+        </div>
+    </div>
     <div class="legal-info">
         <p>&copy; 2024 Surge Game. All rights reserved.</p>
         <p>Privacy Policy | Terms of Service</p>
-    </div>
-    <div class="social-links">
-        <a href="https://www.youtube.com/surgegame" target="_blank">YouTube</a>
     </div>
 </footer>
 
