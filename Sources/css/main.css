@@ -7,6 +7,7 @@
     height: auto;
 }
 
+
 #banner-content {
     text-align: center;
 }
@@ -19,3 +20,6 @@
     font-size: 1.2em;
 }
 
+table, th, td {
+    border: 1px solid black;
+}
