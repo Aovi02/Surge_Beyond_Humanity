@@ -1,51 +1,41 @@
-/* Style for the main content container */
+.access-info h1{
+        font-size: 4em;
+    }
+.access-info p{
+        font-size: 1.5em;
+    }
 .main-content {
-    max-width: 600px; /* Set a maximum width for better readability */
-    margin: 20px auto; /* Center the main content */
+    max-width: 600px; 
+    margin: 20px auto; 
 }
 
-/* Style for the login and register sections */
-.login-section,
-.register-section {
-    margin-bottom: 20px; /* Add spacing between sections */
+.login-section, .register-section {
+    margin-bottom: 20px;
 }
 
-/* Style for the section headings */
-.login-section h2,
-.register-section h2 {
-    font-size: 1.8em; /* Increase heading font size for emphasis */
-    margin-bottom: 15px; /* Add spacing below the headings */
+.login-section h2, .register-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
 }
 
-/* Style for the form labels */
-.login-form label,
-.register-form label {
-    display: block; /* Display labels as block elements */
-    margin-bottom: 5px; /* Add spacing below labels */
+.login-form label, .register-form label {
+    display: block;
+    margin-bottom: 5px;
 }
 
-/* Style for the form inputs */
-.login-form input,
-.register-form input {
-    width: 100%; /* Make the input fields take full width of the container */
-    padding: 8px; /* Add padding to the input fields */
-    margin-bottom: 10px; /* Add spacing below the input fields */
-    box-sizing: border-box; /* Include padding and border in the input width */
+.login-form input,  .register-form input {
+    width: 100%; 
+    padding: 8px;
+    margin-bottom: 10px; 
+    box-sizing: border-box; 
 }
 
-/* Style for the login and register buttons */
-.login-button,
-.register-button {
-    padding: 10px 20px; /* Add padding to the buttons for spacing */
-    background-color: #4CAF50; /* Set a green background color */
-    color: white; /* Set the text color to white */
-    border: none; /* Remove button border */
-    border-radius: 5px; /* Add border-radius for rounded corners */
-    cursor: pointer; /* Add pointer cursor on hover */
-}
-
-/* Hover effect for the buttons */
-.login-button:hover,
-.register-button:hover {
-    background-color: #45a049; /* Darken the background color on hover */
+.login-button, .register-button {
+    padding: 10px 20px; 
+    background-color: #414345; 
+    color: white;
+    border: white;
+    border-width: 10px;
+    border-radius: 5px;
+    cursor: pointer;
 }

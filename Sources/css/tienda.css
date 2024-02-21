@@ -1,122 +1,47 @@
-/* Style for the shop section container */
-.shop-section {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-/* Style for each shop item */
 .shop-item {
-    position: relative;
-    width: 200px;
-    margin: 10px;
+    align-items: center;
 }
 
-/* Style for the item details box */
-.item-details {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+.item-banner{
+    width: 350px;
+    height: 350px;
     text-align: center;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 10px;
-}
-
-/* Style for the item details text */
-.item-details h3 {
-    margin: 0;
-    font-size: 1.2em;
-}
-
-.item-details p {
-    margin: 5px 0;
-}
-
-/* Style for the "Details" button */
-.details-button {
-    display: block;
-    width: 100%;
-    padding: 8px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
+    background: azure url("../../Resources/Images/calendar_img.jpg") no-repeat center / cover;
+    .product-data{
+        height: 150px;
+        width: 350px;
+        align-items: center;
+    }
+    h3{
+        font-size: 1.3em;
+    }
+ }
+.purchase-button{
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid #333;
     border-radius: 5px;
-    cursor: pointer;
+    cursor: pointer; 
 }
 
-/* Hover effect for the "Details" button */
-.details-button:hover {
-    background-color: #45a049;
-}
-
-.ultimas-ofertas {
-    max-width: 100%; /* Make the container as wide as the screen allows */
-    margin: 20px 0;
+.shop-section h2{
     text-align: center;
+    font-size: 3em;
 }
 
-/* Style for the gallery headings */
-.ultimas-ofertas h2 {
+.ultimas-ofertas{
+    text-align: center;
+    width: 100%;
+}
+
+.ultimas-ofertas h2{
+    font-size: 3em;
+}
+.ultimas-ofertas h3{
     font-size: 2em;
-    margin-bottom: 10px;
 }
 
-.ultimas-ofertas h3 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
-}
-
-/* Style for the slideshow container */
-.slideshow-container {
-    position: relative;
-    width: 100%;
-    max-width: 1200px; /* Set a maximum width for better image quality */
-    margin: 0 auto;
-    overflow: hidden;
-}
-
-/* Style for the individual slides */
-.slide {
-    display: none;
-}
-
-.slide img {
-    width: 100%;
-    height: auto;
-}
-
-/* Style for navigation dots */
-.dot-container {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.dot {
-    height: 15px;
-    width: 15px;
-    margin: 0 5px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-/* Style for active dot */
-.active {
-    background-color: #717171;
-}
-
-/* Style for the fade animation */
-.fade {
-    animation: fade 1.5s ease-in-out infinite;
-}
-
-/* Keyframe animation for fading */
-@keyframes fade {
-    from {
-        opacity: 0.4;
-    }
-    to {
-        opacity: 1;
-    }
+#price-range-min, #price-range-max{
+    width: 50px;
 }
