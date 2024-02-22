@@ -1,0 +1,41 @@
+.access-info h1{
+        font-size: 4em;
+    }
+.access-info p{
+        font-size: 1.5em;
+    }
+.main-content {
+    max-width: 600px; 
+    margin: 20px auto; 
+}
+
+.login-section, .register-section {
+    margin-bottom: 20px;
+}
+
+.login-section h2, .register-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.login-form label, .register-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-form input,  .register-form input {
+    width: 100%; 
+    padding: 8px;
+    margin-bottom: 10px; 
+    box-sizing: border-box; 
+}
+
+.login-button, .register-button {
+    padding: 10px 20px; 
+    background-color: #414345; 
+    color: white;
+    border: white;
+    border-width: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

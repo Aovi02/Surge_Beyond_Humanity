@@ -1,0 +1,47 @@
+.shop-item {
+    align-items: center;
+}
+
+.item-banner{
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    background: azure url("../../Resources/Images/calendar_img.jpg") no-repeat center / cover;
+    .product-data{
+        height: 150px;
+        width: 350px;
+        align-items: center;
+    }
+    h3{
+        font-size: 1.3em;
+    }
+ }
+.purchase-button{
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+.shop-section h2{
+    text-align: center;
+    font-size: 3em;
+}
+
+.ultimas-ofertas{
+    text-align: center;
+    width: 100%;
+}
+
+.ultimas-ofertas h2{
+    font-size: 3em;
+}
+.ultimas-ofertas h3{
+    font-size: 2em;
+}
+
+#price-range-min, #price-range-max{
+    width: 50px;
+}

@@ -5,26 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login and Register - Surge Game</title>
     <!-- Link to your CSS file for styling -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="..//css/comun.css" />
+    <link rel="stylesheet" type="text/css" href="../css/login_register.css" />
 </head>
 <body>
-    <link rel="stylesheet" type="text/css" href="../../Sources/css/comun.css" />
 <!-- Navigation Bar -->
 <nav class="navbar">
-    <!-- Logo on the left -->
+    <!-- Logo -->
     <a href="main.html">
         <div class="logo">
             <img src="../../Resources/Images/Logo_pag_web.png" alt="Surge Logo" style="width: 100px;height: 100px;">
         </div>
     </a>
-
-    <!-- Menu button on the right -->
-    <button class="menu-button">Menu</button>
+    <div class="menu-item">
+        <a href="calendario.html">Calendario</a>
+    </div>
+    <div class="menu-item">
+        <a href="MainWiki.html">Wiki</a>
+    </div>
+    <div class="menu-item">
+        <a href="tienda.html">Tienda</a>
+    </div>
+    <div class="menu-item">
+        <a href="about.html">About</a>
+    </div>
+    <div class="menu-item">
+        <a href="FAQ.html">Soporte</a>
+    </div>
+    <div class="menu-item">
+        <a href="login_register.html">Access account</a>
+    </div>
 </nav>
 
 <!-- Main Content -->
 <div class="main-content">
-
+    <div class="access-info">
+        <h1>Surge Account</h1>
+        <p>A Surge account allows you to save preferences realted to events in the calendar, allows you to post articles on the wiki,
+            and makes the shop more easily accessible. Sign up now to enjoy the benefits. It's free, and it takes 2 minutes to create an account.
+        </p>
+    </div>
     <!-- Login Section -->
     <section class="login-section">
         <h2>Login</h2>
@@ -62,13 +82,28 @@
 </div>
 
 <!-- Footer -->
+<!-- Footer, info legal y links -->
 <footer class="footer">
+    <div id="social-links">
+        <div id="youtube-link">
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="../../Resources/Images/youtube_logo.png", alt="youtube logo">
+            </a>
+        </div>
+        <div id="instagram-link">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="../../Resources/Images/instagram_logo.png", alt="instagram logo">
+            </a>
+        </div>
+        <div id="twitter-link">
+            <a href="https://www.twitter.com/" target="_blank">
+                <img src="../../Resources/Images/twitter_logo.png", alt="twitter logo">
+            </a>
+        </div>
+    </div>
     <div class="legal-info">
         <p>&copy; 2024 Surge Game. All rights reserved.</p>
         <p>Privacy Policy | Terms of Service</p>
-    </div>
-    <div class="social-links">
-        <a href="https://www.youtube.com/surgegame" target="_blank">YouTube</a>
     </div>
 </footer>
 
