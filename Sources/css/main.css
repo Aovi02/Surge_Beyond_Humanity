@@ -1,10 +1,13 @@
 #banner video{
-    width: 95em;
+    width: 92em;
 }
 
 #latest-news img{
     width: 400px;
     height: auto;
+}
+#latest-news h1{
+    text-align: center;
 }
 
 
