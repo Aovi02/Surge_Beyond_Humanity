@@ -1,0 +1,28 @@
+body {
+    padding: 20px;
+    font: 1em Helvetica Neue, Helvetica, Arial, sans-serif;
+  }
+  
+  * {box-sizing: border-box;}
+  
+  p {
+    margin: 0 0 1em 0;
+  
+  }
+  
+  .container {
+    width: auto;
+    height: auto;
+    border: 0px solid rgb(111,41,97);
+    border-radius: .5em;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+  .container > div {
+    padding: 10px;
+    background-color: rgba(111,41,97,.3);
+    border: 2px solid rgba(111,41,97,.5);
+  }
