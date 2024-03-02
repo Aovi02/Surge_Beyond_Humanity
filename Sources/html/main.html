@@ -4,10 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Surge Game</title>
+    <title>Surge</title>
     <!-- Link to your CSS file for styling -->
     <link rel="stylesheet" type="text/css" href="../../Sources/css/comun.css" />
-<link rel="stylesheet" type="text/css" href="../../Sources/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="../../Sources/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -20,89 +23,150 @@
         </div>
     </a>
     <div class="menu-item">
-        <a href="calendario.html">Calendario</a>
+        <a href="calendario.html">Calendar</a>
     </div>
     <div class="menu-item">
         <a href="MainWiki.html">Wiki</a>
     </div>
     <div class="menu-item">
-        <a href="tienda.html">Tienda</a>
+        <a href="tienda.html">Shop</a>
     </div>
     <div class="menu-item">
         <a href="about.html">About</a>
     </div>
     <div class="menu-item">
-        <a href="FAQ.html">Soporte</a>
+        <a href="FAQ.html">Support</a>
     </div>
     <div class="menu-item">
         <a href="login_register.html">Access account</a>
     </div>
 </nav>
 
-<!-- Video visualizador y titulo -->
+<script src="../js/nav.js"></script>
+
 <div id="banner">
     <!-- Video background -->
-    <video autoplay muted loop id="bannerVideo">
-        <source src="../../Resources/Videos/banner_video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+    <div class="banner-video-container">
+        <video autoplay muted loop id="bannerVideo">
+            <source src="../../Resources/Videos/banner_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
 
     <!-- Banner content -->
     <div id="banner-content">
         <h1>Welcome to Surge</h1>
-        <p>Experience the thrill of the ultimate gaming adventure.</p>
+        <p>Rise above fate, in this epic futuristic FPS with full scale battles.</p>
     </div>
 </div>
 
-<!-- Seccion de ultimas noticias -->
-<div id="latest-news">
-    <a href="UltNoticias.html"><h2> Ultimas noticias </h2></a>
-    <!-- THumbnail noticia, es un enlace a una noticia -->
-    <a href="noticia.html">
-        <div class="noticia_main">
-            <img src="../../Resources/Images/WZ-111.jpg" alt="Foto">
-            <h4>WZ-111 Chinese Heavy Tank</h4>
-        </div>
-    </a>
-    
-    <a href="noticia-A39.html">
-        <div class="noticia_main">
-            <img src="../../Resources/Images/A-39Tortoise.jpg" alt="Alt">
-            <h4>A-39 Tortoise British Super Heavy Assault Gun</h4>
-        </div>
-    </a>
+<a href="UltNoticias.html" class="news-link">
+    <h2> Latest news </h2>
+</a>
 
-    <a href="noticia-Kikka.html">
-        <div class="noticia_main">
-            <img src="../../Resources/Images/Nakajima-Kikka.jpg" alt="Alt">
-            <h4>Nakajima Kikka Japanese Jet Fighter</h4>
-        </div>
-    </a>
+<!-- Seccion de ultimas noticias -->
+<div id="latest-news" class="latest-news-container">
     
+    <!-- THumbnail noticia, es un enlace a una noticia -->
+    <div class="news-box">
+        <a href="noticia.html">
+            <div class="noticia_main">
+                <img src="../../Resources/Images/news_thumb_1.jpg" alt="Foto">
+            </div>
+            <div class="news-details">
+                <h4>The Russian Z-7 "Nightmare" Tank</h4>
+                <p>A fearsome medium tank equipped with anti armor guns and stealth detection, this tank is scheduled to release sometime in May.</p>
+            </div>
+        </a>
+    </div>
+    
+     <!-- News Box 2 -->
+     <div class="news-box">
+        <a href="noticia-A39.html">
+            <div class="noticia_main">
+                <img src="../../Resources/Images/news_thumb_2.jpg" alt="Alt">
+            </div>
+            <div class="news-details">
+                <h4>Patch update 10.9</h4>
+                <p>This update comes with many bug fixes and QoL improvements, as well as nerfs and buffs for weapons and vehicles.</p>
+            </div>
+        </a>
+    </div>
+
+    <!-- News Box 3 -->
+    <div class="news-box">
+        <a href="noticia-Kikka.html">
+            <div class="noticia_main">
+                <img src="../../Resources/Images/news_thumb_3.jpg" alt="Alt">
+            </div>
+            <div class="news-details">
+                <h4>WW1 insipired cosmetics voting</h4>
+                <p>Enter here to vote for whether you want WW1 adapted armor in the game.</p>
+            </div>
+        </a>
+    </div>
+
+    <!-- THumbnail noticia, es un enlace a una noticia -->
+    <div class="news-box">
+        <a href="noticia.html">
+            <div class="noticia_main">
+                <img src="../../Resources/Images/news_thumb_4.jpg" alt="Foto">
+            </div>
+            <div class="news-details">
+                <h4>Urban tactis</h4>
+                <p>Or1on, one of our most veteran players, describes in detail how to succeed in urban warfare, when tanks are involved.</p>
+            </div>
+        </a>
+    </div>
+    
+     <!-- News Box 2 -->
+     <div class="news-box">
+        <a href="noticia-A39.html">
+            <div class="noticia_main">
+                <img src="../../Resources/Images/news_thumb_5.jpg" alt="Alt">
+            </div>
+            <div class="news-details">
+                <h4>Celebrate the arrival of spring</h4>
+                <p>As 1st of March draws nearer, we prepared an event, and scheduled the release of a new map mid month, so stay tuned.</p>
+            </div>
+        </a>
+    </div>
+
+    <!-- News Box 3 -->
+    <div class="news-box">
+        <a href="noticia-Kikka.html">
+            <div class="noticia_main">
+                <img src="../../Resources/Images/news_thumb_6.jpg" alt="Alt">
+            </div>
+            <div class="news-details">
+                <h4>Release of the Chinese TB-67 Tank</h4>
+                <p>The heavily armored Chinese AA tank protoype is scheduled to release March 4th. Its specs make it suitable for attrition battles.</p>
+            </div>
+        </a>
+    </div>
 </div>
 
-<!-- Footer, info legal y links -->
 <footer class="footer">
-    <div id="social-links">
-        <div id="youtube-link">
+    <div id="social-links" class="social-container">
+        <div id="youtube-link" class="social-item">
             <a href="https://www.youtube.com/" target="_blank">
-                <img src="../../Resources/Images/youtube_logo.png", alt="youtube logo">
+                <img src="../../Resources/Images/youtube_logo.png" alt="youtube logo">
             </a>
         </div>
-        <div id="instagram-link">
+        <div id="instagram-link" class="social-item">
             <a href="https://www.instagram.com/" target="_blank">
-                <img src="../../Resources/Images/instagram_logo.png", alt="instagram logo">
+                <img src="../../Resources/Images/instagram_logo.png" alt="instagram logo">
             </a>
         </div>
-        <div id="twitter-link">
+        <div id="twitter-link" class="social-item">
             <a href="https://www.twitter.com/" target="_blank">
-                <img src="../../Resources/Images/twitter_logo.png", alt="twitter logo">
+                <img src="../../Resources/Images/twitter_logo.png" alt="twitter logo">
             </a>
         </div>
     </div>
     <div class="legal-info">
         <p>&copy; 2024 Surge Game. All rights reserved.</p>
-        <p>Privacy Policy | Terms of Service</p>
+        <p><a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-of-service.html">Terms of Service</a> | <a href="work-with-us.html">Work with us</a></p>
     </div>
 </footer>
 
