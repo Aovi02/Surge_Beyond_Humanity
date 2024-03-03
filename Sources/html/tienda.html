@@ -7,61 +7,44 @@
         <!-- Link to your CSS file for styling -->
         <link rel="stylesheet" type="text/css" href="../css/comun.css" />
         <link rel="stylesheet" type="text/css" href="../css/tienda.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
-    <!-- Barra navegacion -->
-    <nav class="navbar">
-        <!-- Logo -->
-        <a href="main.html">
-            <div class="logo">
-                <img src="../../Resources/Images/Logo_pag_web.png" alt="Surge Logo" style="width: 100px;height: 100px;">
-            </div>
-        </a>
-        <div class="menu-item">
-            <a href="calendario.html">Calendario</a>
+   <!-- Barra navegacion -->
+<nav class="navbar">
+    <!-- Logo -->
+    <a href="main.html">
+        <div class="logo">
+            <img src="../../Resources/Images/Logo_pag_web.png" alt="Surge Logo" style="width: 100px;height: 100px;">
         </div>
-        <div class="menu-item">
-            <a href="MainWiki.html">Wiki</a>
-        </div>
-        <div class="menu-item">
-            <a href="tienda.html">Tienda</a>
-        </div>
-        <div class="menu-item">
-            <a href="about.html">About</a>
-        </div>
-        <div class="menu-item">
-            <a href="FAQ.html">Soporte</a>
-        </div>
-        <div class="menu-item">
-            <a href="login_register.html">Access account</a>
-        </div>
-    </nav>
-
-    <div class="ultimas-ofertas">
-        <h2>Gallery</h2>
-        <h3>Exploring the World of Surge</h3>
-    
-        <!-- Image Slideshow -->
-        <div class="slideshow-container">
-            <div class="slide fade">
-                <a href="enlace">
-                    <img src="../../Resources/Images/A-39Tortoise.jpg" alt="Gallery Image 1">
-                </a>
-            </div>
-            <div class="slide fade">
-                <a href="enlace">
-                    <img src="../../Resources/Images/Nebulosa_background.jpg" alt="Gallery Image 1">
-                </a>
-            </div>
-            <div class="slide fade">
-                <a href="enlace">
-                    <img src="../../Resources/Images/Nakajima-Kikka.jpg" alt="Gallery Image 1">
-                </a>
-            </div>
-        </div>
+    </a>
+    <div class="menu-item">
+        <a href="calendario.html">Calendar</a>
     </div>
+    <div class="menu-item">
+        <a href="MainWiki.html">Wiki</a>
+    </div>
+    <div class="menu-item">
+        <a href="tienda.html">Shop</a>
+    </div>
+    <div class="menu-item">
+        <a href="about.html">About</a>
+    </div>
+    <div class="menu-item">
+        <a href="FAQ.html">Support</a>
+    </div>
+    <div class="menu-item">
+        <a href="login_register.html">Access account</a>
+    </div>
+</nav>
 
-    <!-- Main Content -->
+<script src="../js/nav.js"></script>
+
+<h2>Shop</h2>
+
+<!-- Main Content -->
 <div class="main-content">
 
     <!-- Left Vertical Section with Checkbox and Form -->
@@ -92,9 +75,7 @@
 
     <!-- Right Section for Shop Items -->
     <div class="shop-section">
-        <h2>Shop</h2>
-    
-        <!-- Shop Item 1 -->
+        
         <div class="shop-item">
             <a href="">
                 <div class="item-banner">
@@ -102,12 +83,12 @@
                 </div>
             </a>
             <div class="product-data">
-                <a href="">Details</a>
+                <a href="" class="details-link">Details</a>
                 <button class="purchase-button">2.99$</button>
             </div>
         </div>
     
-        <!-- Shop Item 1 -->
+        <!-- Shop Item 2 -->
         <div class="shop-item">
             <a href="">
                 <div class="item-banner">
@@ -115,12 +96,12 @@
                 </div>
             </a>
             <div class="product-data">
-                <a href="">Details</a>
+                <a href="" class="details-link">Details</a>
                 <button class="purchase-button">2.99$</button>
             </div>
         </div>
     
-        <!-- Shop Item 1 -->
+        <!-- Shop Item 3 -->
         <div class="shop-item">
             <a href="">
                 <div class="item-banner">
@@ -128,37 +109,60 @@
                 </div>
             </a>
             <div class="product-data">
-                <a href="">Details</a>
+                <a href="" class="details-link">Details</a>
+                <button class="purchase-button">2.99$</button>
+            </div>
+        </div>
+
+        <div class="shop-item">
+            <a href="">
+                <div class="item-banner">
+                    <h3>Item 1</h3>
+                </div>
+            </a>
+            <div class="product-data">
+                <a href="" class="details-link">Details</a>
+                <button class="purchase-button">2.99$</button>
+            </div>
+        </div>
+
+        <div class="shop-item">
+            <a href="">
+                <div class="item-banner">
+                    <h3>Item 1</h3>
+                </div>
+            </a>
+            <div class="product-data">
+                <a href="" class="details-link">Details</a>
                 <button class="purchase-button">2.99$</button>
             </div>
         </div>
         <!-- Add more shop items as needed -->
     </div>
-
 </div>
 
 <!-- Footer, info legal y links -->
 <footer class="footer">
-    <div id="social-links">
-        <div id="youtube-link">
+    <div id="social-links" class="social-container">
+        <div id="youtube-link" class="social-item">
             <a href="https://www.youtube.com/" target="_blank">
-                <img src="../../Resources/Images/youtube_logo.png", alt="youtube logo">
+                <img src="../../Resources/Images/youtube_logo.png" alt="youtube logo">
             </a>
         </div>
-        <div id="instagram-link">
+        <div id="instagram-link" class="social-item">
             <a href="https://www.instagram.com/" target="_blank">
-                <img src="../../Resources/Images/instagram_logo.png", alt="instagram logo">
+                <img src="../../Resources/Images/instagram_logo.png" alt="instagram logo">
             </a>
         </div>
-        <div id="twitter-link">
+        <div id="twitter-link" class="social-item">
             <a href="https://www.twitter.com/" target="_blank">
-                <img src="../../Resources/Images/twitter_logo.png", alt="twitter logo">
+                <img src="../../Resources/Images/twitter_logo.png" alt="twitter logo">
             </a>
         </div>
     </div>
     <div class="legal-info">
         <p>&copy; 2024 Surge Game. All rights reserved.</p>
-        <p>Privacy Policy | Terms of Service</p>
+        <p><a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-of-service.html">Terms of Service</a> | <a href="work-with-us.html">Work with us</a></p>
     </div>
 </footer>
 
