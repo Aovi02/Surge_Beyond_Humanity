@@ -8,6 +8,18 @@
     margin-right: 3%;
     margin-left: 2%;
 }
+
+#latest-news-right img{
+    width: 500px;
+    height: auto;
+    display: block;
+    float: right;
+    padding-right: 3%;
+    margin-left: 3%;
+    margin-right: auto;
+    margin-right: 2%;
+}
+
 #latest-title{
     padding-left: 5%;
     color: blueviolet;
