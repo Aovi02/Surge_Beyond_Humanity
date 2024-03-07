@@ -61,19 +61,21 @@ h2{
     transition: all 0.7s ease-in-out 0.3s;
 }
 
-.buttons button#next{
+#next{
     position: absolute;
-    top: 50%;
+    top: 60%;
     right: 15px;
+    border-radius: 50%;
 }
 
-.buttons button#prev{
+#prev{
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 15px;
+    border-radius: 50%;
 }
 
-.buttons button {
+.nav-buttons button {
     border: 2px solid #fff;
     background-color: transparent;
     color: #fff;
@@ -83,7 +85,27 @@ h2{
     outline: none;
 }
 
-.buttons button:hover {
+.nav-buttons button:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.shop-buttons{
+    grid-column: 2;
+    text-align: center;
+}
+
+.shop-buttons button{
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    padding: 13px 15px;
+    border-radius: 50%;
+    outline: none;
+}
+
+.shop-buttons button:hover {
     background-color: #fff;
     color: #333;
 }
@@ -97,8 +119,52 @@ h2{
 }
 
 .filters-section {
-    /*background-color: #cfab28;*/
     padding: 20px;
+}
+
+.checkbox-filter{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.tooltip-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.tooltip-section label {
+    color: #ddd;
+}
+
+.tooltip-section input {
+    background-color: #444;
+    border-color: #555;
+}
+
+.range-filter {
+    margin-top: 10px;
+    border-color: #555;
+}
+
+.range-min{
+    margin-top: 10px;
+}
+
+.range-min input{
+    width: 3em;
+}
+
+.range-max{
+    margin-top: 10px;
+}
+
+.range-max input{
+    width: 3em;
+}
+
+.name-filter{
+    margin-top: 20px;
+    text-align: center;
 }
 
 .shop-section {
@@ -147,29 +213,29 @@ h2{
     text-align: center;
     grid-row: 2;
     margin-bottom: 10px;
-  }
+}
 
-  .product-data .link-details{
+.product-data .link-details{
     text-align: center;
     grid-row: 2;
     margin-bottom: 10px;
-  }
-  
-  .purchase-button{
+}
+
+.purchase-button{
     padding: 10px 20px;
     background-color: #32aa17;
     color: white;
     border-radius: 5px;
     cursor: pointer;
     transition-duration: 0.4s;
-  }
-  
-  .purchase-button:hover {
+}
+
+.purchase-button:hover {
     background-color: #04AA6D;
     color: black;
     box-shadow: 0 5px 5px 0 rgba(255,255,255, 0.24), 0 10px 5px 0 rgba(255,255,255,0, 0.19);
     scale: 1.05;
-  }
+}
 
 .details-button{
     padding: 10px 20px;
