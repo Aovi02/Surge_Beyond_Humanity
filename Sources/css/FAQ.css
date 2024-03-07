@@ -2,3 +2,15 @@
     font-size: 4em;
     text-align: center;
 }
+
+.accordion{
+    text-align: center;
+    margin-top: 125px;
+    background-color: #1F1C2C;
+    width: 800px;
+}
+
+.contact-form{
+    margin-top: 125px;
+    width: 800px;
+}
