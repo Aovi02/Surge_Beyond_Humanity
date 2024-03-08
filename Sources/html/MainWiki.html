@@ -4,16 +4,40 @@
         <style>table, th, td {
             border: 1px solid black;
         }</style>
-        <a href="main.html">
-            <div class="logo">
-                <img src="../../Resources/Images/Logo_pag_web.png" alt="Surge Logo" style="width: 100px;height: 100px;">
-            </div>
-        </a>
         <h1>WIKI DE SOURGE</h1>
     </header>
     <body>
+        <nav class="navbar">
+            <!-- Logo -->
+            <a href="main.html">
+                <div class="logo">
+                    <img src="../../Resources/Images/Logo_pag_web.png" alt="Surge Logo" style="width: 100px;height: 100px;">
+                </div>
+            </a>
+            <div class="menu-item">
+                <a href="calendario.html">Calendar</a>
+            </div>
+            <div class="menu-item">
+                <a href="MainWiki.html">Wiki</a>
+            </div>
+            <div class="menu-item">
+                <a href="tienda.html">Shop</a>
+            </div>
+            <div class="menu-item">
+                <a href="about.html">About</a>
+            </div>
+            <div class="menu-item">
+                <a href="FAQ.html">Support</a>
+            </div>
+            <div class="menu-item">
+                <a href="login_register.html">Access account</a>
+            </div>
+        </nav>
+        
+        <script src="../js/nav.js"></script>
         <link rel="stylesheet" type="text/css" href="../../Sources/css/comun.css" />
-        <p>Bienvenid@ en la WIKI: </p><input type="text" placeholder="Buscar..">
+
+        <p style="padding-top: 100px;">Bienvenid@ en la WIKI: </p><input type="text" placeholder="Buscar..">
         <table style="width:100%">
             <tr>
                 <th>MAPAS</th>
@@ -31,7 +55,7 @@
                 <td>RED ROCK FORTRESS</td>
                 <td>DESERT STORM</td>
                 <td>INGENIERO</td>
-                <td><a href="wiki_articulo.html">WZ-111</a></td>
+                <td><a href="wiki_articulo.html">G33</a></td>
             </tr>
             <tr>
                 <td>ETC.</td>
@@ -76,5 +100,28 @@
                 <td>ETC.</td>
             </tr>
         </table>
+        <footer class="footer">
+            <div id="social-links" class="social-container">
+                <div id="youtube-link" class="social-item">
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <img src="../../Resources/Images/youtube_logo.png" alt="youtube logo">
+                    </a>
+                </div>
+                <div id="instagram-link" class="social-item">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="../../Resources/Images/instagram_logo.png" alt="instagram logo">
+                    </a>
+                </div>
+                <div id="twitter-link" class="social-item">
+                    <a href="https://www.twitter.com/" target="_blank">
+                        <img src="../../Resources/Images/twitter_logo.png" alt="twitter logo">
+                    </a>
+                </div>
+            </div>
+            <div class="legal-info">
+                <p>&copy; 2024 Surge Game. All rights reserved.</p>
+                <p><a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-of-service.html">Terms of Service</a> | <a href="work-with-us.html">Work with us</a></p>
+            </div>
+        </footer>
     </body>
 </html>
