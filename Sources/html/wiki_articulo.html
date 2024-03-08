@@ -6,6 +6,7 @@
         <title>Surge Game</title>
         <!-- Link to your CSS file for styling -->
         <link rel="stylesheet" href="styles.css">
+        
     </head>
     <body>
         <link rel="stylesheet" type="text/css" href="../../Sources/css/comun.css" />
@@ -17,37 +18,82 @@
                 <img src="../../Resources/Images/Logo_pag_web.png" alt="Surge Logo" style="width: 100px;height: 100px;">
             </div>
         </a>
-    
-        <!-- Boton menu -->
-        <button class="menu-button">Menu</button>
+        <div class="menu-item">
+            <a href="calendario.html">Calendar</a>
+        </div>
+        <div class="menu-item">
+            <a href="MainWiki.html">Wiki</a>
+        </div>
+        <div class="menu-item">
+            <a href="tienda.html">Shop</a>
+        </div>
+        <div class="menu-item">
+            <a href="about.html">About</a>
+        </div>
+        <div class="menu-item">
+            <a href="FAQ.html">Support</a>
+        </div>
+        <div class="menu-item">
+            <a href="login_register.html">Access account</a>
+        </div>
     </nav>
+    
+    <script src="../js/nav.js"></script>
     <link rel="stylesheet" type="text/css" href="../../Sources/css/Noticias.css" />
+    <link rel="stylesheet" type="text/css" href="../../Sources/css/wikiArticulo.css" />
 <!-- About Section Content -->
-<section class="about-section">
-    <h2>About Surge Game</h2>
-
-    <p>Welcome to Surge, the ultimate gaming experience that takes you on a thrilling adventure like never before. Immerse yourself in a world of intense gameplay, stunning graphics, and an epic storyline that will keep you on the edge of your seat.</p>
-    <div id="latest-news">
-    <img src="../../Resources/Images/O-I.jpg" alt="Game Screenshot 1">
+<section class="about-section" style="padding-top: 120px;">
+    <h2 id="texto">About Surge Game</h2>
+    <div style="float: right;">
+        <div class="infocaja">
+            <div class="titulo">
+              <h2>AN 94</h2>
+            </div>
+            <img src="../../Resources/Images/an94.jpg" class="infocaja-img" alt="AN-94">
+            <div class="infocaja-group">
+              <div class="heading">
+                <h3>Information</h3>
+              </div>
+                <div class="infocaja-fila">
+                  <p class="data-cabeza">Country: </p>
+                  <p class="data-cuerpo"> Russia</p>
+                </div>
+              </div>
+            </div>
+          </div>
     </div>
-    <p>Our team of passionate developers and designers has worked tirelessly to create a game that pushes the boundaries of what's possible in the gaming world. With cutting-edge technology and innovative gameplay mechanics, Surge is set to redefine your gaming experience.</p>
+    <p id="texto">Welcome to Surge, the ultimate gaming experience that takes you on a thrilling adventure like never before. Immerse yourself in a world of intense gameplay, stunning graphics, and an epic storyline that will keep you on the edge of your seat.</p>
+    <p id="texto">Our team of passionate developers and designers has worked tirelessly to create a game that pushes the boundaries of what's possible in the gaming world. With cutting-edge technology and innovative gameplay mechanics, Surge is set to redefine your gaming experience.</p>
     <div id="latest-news-video">
         <video controls width="600">
             <source src="../../Resources/Videos/banner_video.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>    
-    <p>Explore vast landscapes, battle formidable foes, and uncover the mysteries that await you in Surge. Whether you're a seasoned gamer or new to the world of gaming, Surge offers an adventure that caters to all.</p>
+    <p id="texto">Explore vast landscapes, battle formidable foes, and uncover the mysteries that await you in Surge. Whether you're a seasoned gamer or new to the world of gaming, Surge offers an adventure that caters to all.</p>
 </section>
-
 <!-- Footer, info legal y links -->
 <footer class="footer">
+    <div id="social-links" class="social-container">
+        <div id="youtube-link" class="social-item">
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="../../Resources/Images/youtube_logo.png" alt="youtube logo">
+            </a>
+        </div>
+        <div id="instagram-link" class="social-item">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="../../Resources/Images/instagram_logo.png" alt="instagram logo">
+            </a>
+        </div>
+        <div id="twitter-link" class="social-item">
+            <a href="https://www.twitter.com/" target="_blank">
+                <img src="../../Resources/Images/twitter_logo.png" alt="twitter logo">
+            </a>
+        </div>
+    </div>
     <div class="legal-info">
         <p>&copy; 2024 Surge Game. All rights reserved.</p>
-        <p>Privacy Policy | Terms of Service</p>
-    </div>
-    <div class="social-links">
-        <a href="https://www.youtube.com/surgegame" target="_blank">YouTube</a>
+        <p><a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-of-service.html">Terms of Service</a> | <a href="work-with-us.html">Work with us</a></p>
     </div>
 </footer>
 

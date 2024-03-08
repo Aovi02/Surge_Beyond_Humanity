@@ -1,0 +1,38 @@
+#texto{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.infocaja {
+    box-sizing: border-box;
+    font-family: ui-sans-serif; /*Fuente Aqui*/
+    max-width: 300px;
+    color: #dcddde;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    background-color: #1F1C2C;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+  }
+  /* Definición de cabezera */
+  .infocaja .titulo {
+    background-color: rgba(255, 255, 255, 0.1);/*Color del fondito*/
+    text-align: center;
+  }
+  .infocaja .titulo h2 {
+    font-size: 20px;
+  }
+  .infocaja .titulo h3 {
+    font-size: 16px;
+  }
+  
+  .infocaja-img {
+    /*display: block;*/
+    width: 100%;
+  }
+  /* Repasar inline-block porque no entiendo del todo bien por que tengo que separar */
+  .infocaja-fila .data-cabeza,
+  .infocaja-fila .data-cuerpo {
+    display: inline-block;
+    margin: 1px;
+    font-size: 16px;
+  }
