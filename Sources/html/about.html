@@ -14,54 +14,69 @@
         <!-- Logo -->
         <a href="main.html">
             <div class="logo">
-                <img src="../../Resources/Images/Logo_pag_web.png" alt="Surge Logo">
+                <img src="../../Resources/Images/Logo_pag_web.png" alt="Surge Logo" style="width: 100px;height: 100px;">
             </div>
         </a>
-    
-        <!-- Boton menu -->
-        <button class="menu-button">Menu</button>
+        <div class="menu-item">
+            <a href="calendario.html">Calendario</a>
+        </div>
+        <div class="menu-item">
+            <a href="MainWiki.html">Wiki</a>
+        </div>
+        <div class="menu-item">
+            <a href="tienda.html">Tienda</a>
+        </div>
+        <div class="menu-item">
+            <a href="about.html">About</a>
+        </div>
+        <div class="menu-item">
+            <a href="FAQ.html">Soporte</a>
+        </div>
+        <div class="menu-item">
+            <a href="login_register.html">Access account</a>
+        </div>
     </nav>
 
 <!-- About Section Content -->
-<section id="about-section">
+<section id="about-section" style="margin-top: 125px;">
     <h2>About Surge Game</h2>
 
     <p>Welcome to Surge, the ultimate gaming experience that takes you on a thrilling adventure like never before. Immerse yourself in a world of intense gameplay, stunning graphics, and an epic storyline that will keep you on the edge of your seat.</p>
-
-    <img src="../../Resources/Images/O-I.jpg" alt="Game Screenshot 1">
-
+    <div style="text-align: center;">
+        <img src="../../Resources/Images/AbramsX.jpg" style="center; width: 800px;height: auto;" alt="Game Screenshot 1">
+    </div> 
     <p>Our team of passionate developers and designers has worked tirelessly to create a game that pushes the boundaries of what's possible in the gaming world. With cutting-edge technology and innovative gameplay mechanics, Surge is set to redefine your gaming experience.</p>
-
+    <div style="text-align: center;">
     <video controls width="600">
         <source src="../../Resources/Videos/banner_video.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-
+    </div>
     <p>Explore vast landscapes, battle formidable foes, and uncover the mysteries that await you in Surge. Whether you're a seasoned gamer or new to the world of gaming, Surge offers an adventure that caters to all.</p>
 </section>
 
 <!-- Footer, info legal y links -->
 <footer class="footer">
-    <div id="social-links">
-        <div id="youtube-link">
+    <div id="social-links" class="social-container">
+        <div id="youtube-link" class="social-item">
             <a href="https://www.youtube.com/" target="_blank">
-                <img src="../../Resources/Images/youtube_logo.png", alt="youtube logo">
+                <img src="../../Resources/Images/youtube_logo.png" alt="youtube logo">
             </a>
         </div>
-        <div id="instagram-link">
+        <div id="instagram-link" class="social-item">
             <a href="https://www.instagram.com/" target="_blank">
-                <img src="../../Resources/Images/instagram_logo.png", alt="instagram logo">
+                <img src="../../Resources/Images/instagram_logo.png" alt="instagram logo">
             </a>
         </div>
-        <div id="twitter-link">
+        <div id="twitter-link" class="social-item">
             <a href="https://www.twitter.com/" target="_blank">
-                <img src="../../Resources/Images/twitter_logo.png", alt="twitter logo">
+                <img src="../../Resources/Images/twitter_logo.png" alt="twitter logo">
             </a>
         </div>
     </div>
     <div class="legal-info">
         <p>&copy; 2024 Surge Game. All rights reserved.</p>
-        <p>Privacy Policy | Terms of Service</p>
+        <p><a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-of-service.html">Terms of Service</a> | <a href="work-with-us.html">Work with us</a></p>
     </div>
 </footer>
 
