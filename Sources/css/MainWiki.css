@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+}
+
+.intro{
+    margin-top: 125px;
+    text-align: center;
+}
+
+.intro h1{
+    font-size: 4em;
+    margin-bottom: 30px;
+}
+
+.container {
+    margin-top: 125px;
+    margin-left: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.card {
+    width: 80px;
+    height: 800px;
+    border-radius: .75rem;
+    background-color: rgba(0,0,0,0.2);
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 2rem;
+    margin: 0 10px;
+    display: flex;
+    align-items: flex-end;
+    transition: .6s cubic-bezier(.28,-0.03,0,.99);
+    box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8);
+}
+
+.card h2{
+  text-orientation: mixed;
+}
+
+.card > .icon {
+    background: rgba(209, 209, 213);
+    color: #233;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+}
+
+.card > .description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transform: translateY(30px);
+    transition-delay: .3s;
+    transition: all .3s ease;
+}
+
+.bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.bg-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.3;
+}
+
+.description h4 {
+    text-transform: uppercase;
+    padding-left: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+input {
+    display: none;
+}
+
+input:checked + label {
+    width: 75%;
+    height: 800px;
+    max-height: max-content;
+}
+
+input:checked + label .description{
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+input:checked .icon{
+  width: 50px;
+}
+
+ul{
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+a{
+    transition: 0.3s ease;
+}
+
+a:hover{
+    font-size: 1.05em;
+    cursor: pointer;
+    text-decoration: underline;
+}
