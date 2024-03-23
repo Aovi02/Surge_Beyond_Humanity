@@ -3,14 +3,68 @@
     text-align: center;
 }
 
-.accordion{
+main{
+    align-items: center;
     text-align: center;
-    margin-top: 125px;
-    background-color: #1F1C2C;
-    width: 800px;
+}
+
+.intro{
+    margin-top: 25vh;
 }
 
 .contact-form{
-    margin-top: 125px;
+    margin: 10vh auto; /* Auto margin on top and bottom, and left and right */
     width: 800px;
+}
+
+/* Override Bootstrap accordion styles */
+.accordion {
+    text-align: center;
+    margin-top: 5vh;
+    background-color: #1F1C2C; /* Set background color to match body */
+    width: 100%;
+}
+
+/* Set text color to white for accordion headers and bodies */
+.accordion-header button {
+    color: white;
+}
+
+.accordion-body {
+    color: white;
+    background-color: #1F1C2C; /* Set background color to match body */
+}
+
+/* Set border color to match background for accordion items */
+.accordion-item {
+    border-color: #1F1C2C;
+}
+
+/* Override Bootstrap accordion button styles */
+.accordion-header button {
+    color: white; /* Set text color to white */
+    background-color: #1F1C2C; /* Set background color to match body */
+    border: none; /* Remove default button border */
+}
+
+/* Style accordion buttons on hover */
+.accordion-header button:hover {
+    background-color: #828184; /* Change background color on hover */
+}
+
+.accordion-button {
+    text-align: center;
+}
+
+/* Style the submit button */
+.btn-primary {
+    background-color: #1F1C2C; /* Set background color to match body */
+    color: white; /* Set text color to white */
+    border: none; /* Remove default button border */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Change button background color on hover */
+.btn-primary:hover {
+    background-color: #2c2a3b; /* Darker background color on hover */
 }
