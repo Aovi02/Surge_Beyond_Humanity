@@ -1,8 +1,61 @@
 #about-section h2{
     font-size: 4em;
     text-align: center;
+    margin-top: 25vh;
 }
 
-#about-section p{
-    font-size: 1.2em;
+#about-section h3{
+    font-size: 2em;
+    text-align: center;
+}
+
+.container-left{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15vh;
+}
+
+.container-right{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15vh;
+}
+
+.container-right .text-container{
+    flex: 1;
+}
+
+.container-left .text-container{
+    flex: 1;
+}
+
+.image-container{
+    flex: 1;
+    max-width: 40%;
+    padding: 0 20px;
+    align-self: center;
+}
+
+.image-container img{
+    height: auto;
+    max-width: 100%;
+}
+
+.container-pictures{
+    display: flex;
+    height: 40vh;
+    margin-bottom: 20vh;
+}
+
+.data-container{
+    flex: 1;
+    max-width: 33%;
+}
+
+.data-container img{
+    max-width: 100%;
+}
+
+figcaption{
+    text-align: center;
 }
