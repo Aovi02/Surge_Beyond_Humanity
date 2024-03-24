@@ -7,6 +7,9 @@
     <!-- Link to your CSS file for styling -->
     <link rel="stylesheet" type="text/css" href="..//css/comun.css" />
     <link rel="stylesheet" type="text/css" href="../css/login_register.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 <!-- Navigation Bar -->
@@ -18,33 +21,34 @@
         </div>
     </a>
     <div class="menu-item">
-        <a href="calendario.html">Calendario</a>
+        <a href="calendario.html">Calendar</a>
     </div>
     <div class="menu-item">
         <a href="MainWiki.html">Wiki</a>
     </div>
     <div class="menu-item">
-        <a href="tienda.html">Tienda</a>
+        <a href="tienda.html">Shop</a>
     </div>
     <div class="menu-item">
         <a href="about.html">About</a>
     </div>
     <div class="menu-item">
-        <a href="FAQ.html">Soporte</a>
+        <a href="FAQ.html">Support</a>
     </div>
     <div class="menu-item">
         <a href="login_register.html">Access account</a>
     </div>
 </nav>
 
+<div class="access-info">
+    <h1>Surge Account</h1>
+    <p>A Surge account allows you to save preferences realted to events in the calendar, allows you to post articles on the wiki,
+        and makes the shop more easily accessible. Sign up now to enjoy the benefits. It's free, and it takes 2 minutes to create an account.
+    </p>
+</div>
+
 <!-- Main Content -->
-<div class="main-content">
-    <div class="access-info">
-        <h1>Surge Account</h1>
-        <p>A Surge account allows you to save preferences realted to events in the calendar, allows you to post articles on the wiki,
-            and makes the shop more easily accessible. Sign up now to enjoy the benefits. It's free, and it takes 2 minutes to create an account.
-        </p>
-    </div>
+<main class="main-content">
     <!-- Login Section -->
     <section class="login-section">
         <h2>Login</h2>
@@ -78,36 +82,31 @@
             <button type="submit" class="register-button">Register</button>
         </form>
     </section>
+</main>
 
-</div>
-
-<!-- Footer -->
 <!-- Footer, info legal y links -->
 <footer class="footer">
-    <div id="social-links">
-        <div id="youtube-link">
+    <div id="social-links" class="social-container">
+        <div id="youtube-link" class="social-item">
             <a href="https://www.youtube.com/" target="_blank">
-                <img src="../../Resources/Images/youtube_logo.png", alt="youtube logo">
+                <img src="../../Resources/Images/youtube_logo.png" alt="youtube logo">
             </a>
         </div>
-        <div id="instagram-link">
+        <div id="instagram-link" class="social-item">
             <a href="https://www.instagram.com/" target="_blank">
-                <img src="../../Resources/Images/instagram_logo.png", alt="instagram logo">
+                <img src="../../Resources/Images/instagram_logo.png" alt="instagram logo">
             </a>
         </div>
-        <div id="twitter-link">
+        <div id="twitter-link" class="social-item">
             <a href="https://www.twitter.com/" target="_blank">
-                <img src="../../Resources/Images/twitter_logo.png", alt="twitter logo">
+                <img src="../../Resources/Images/twitter_logo.png" alt="twitter logo">
             </a>
         </div>
     </div>
     <div class="legal-info">
         <p>&copy; 2024 Surge Game. All rights reserved.</p>
-        <p>Privacy Policy | Terms of Service</p>
+        <p><a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-of-service.html">Terms of Service</a> | <a href="work-with-us.html">Work with us</a></p>
     </div>
 </footer>
-
-<!-- Other content of your webpage goes here -->
-
 </body>
 </html>

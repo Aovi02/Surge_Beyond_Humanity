@@ -1,16 +1,13 @@
 .access-info h1{
-        font-size: 4em;
-    }
+    font-size: 4em;
+    margin-top: 25vh;
+}
 .access-info p{
-        font-size: 1.5em;
-    }
-.main-content {
-    max-width: 600px; 
-    margin: 20px auto; 
+    font-size: 1.5em;
 }
 
 .login-section, .register-section {
-    margin-bottom: 20px;
+    box-sizing: border-box;
 }
 
 .login-section h2, .register-section h2 {
@@ -24,7 +21,8 @@
 }
 
 .login-form input,  .register-form input {
-    width: 100%; 
+    max-width: 100%;
+    width: 90%;
     padding: 8px;
     margin-bottom: 10px; 
     box-sizing: border-box; 
@@ -38,4 +36,32 @@
     border-width: 10px;
     border-radius: 5px;
     cursor: pointer;
+    display: block;
+    margin-top: 3vh;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover, .register-button:hover {
+    background-color: #2c2e30;
+}
+
+@media screen and (min-width: 800px){
+    .login-section{
+        width: 41.66%;
+        float: left;
+        margin-left: 10vh;
+    }
+
+    .register-section{
+        width: 41.66%;
+        float: right;
+    }
+    .login-form input,  .register-form input {
+        width: 70%;
+    }
+    .footer{
+        clear: both;
+        position: relative;
+        top: 10vh;
+    }
 }
