@@ -5,9 +5,6 @@
         column-span: all;
         column-width: 500px;
     }
-    body{
-        background-color: brown;
-    }
 }
 .columna2 {
     column-count: 1;
