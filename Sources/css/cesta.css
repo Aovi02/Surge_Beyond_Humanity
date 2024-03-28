@@ -24,6 +24,21 @@
     margin-bottom: 15px; /* Add spacing below the heading */
 }
 
+.purchase-button{
+    background-color: black;
+    transition: background-color 0.5s;
+}
+.purchase-button:hover{
+    background-color: white;
+    color: red;
+}
+.bloques{/*ESTO ES PARA LOGRAR QUE EL REUSUMEN Y LOS CREDENCIALES SE ALINEEN*/
+    column-count: 2;
+    column-gap: 20px;
+    column-span: all;
+    column-width: 600px;
+}
+
 /* Style for the cart summary container */
 .cart-summary {
     max-width: 600px; /* Set a maximum width for better readability */
