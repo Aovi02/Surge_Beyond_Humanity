@@ -8,11 +8,11 @@
 
 .login-section, .register-section {
     box-sizing: border-box;
+    margin-left: 5vh;
 }
 
 .login-section h2, .register-section h2 {
     font-size: 1.8em;
-    margin-bottom: 15px;
 }
 
 .login-form label, .register-form label {

@@ -3,6 +3,8 @@
     padding-right: 10px;
 }
 .infocaja {
+    float: right;
+    margin-right: 5vh;
     box-sizing: border-box;
     font-family: ui-sans-serif; /*Fuente Aqui*/
     max-width: 300px;
@@ -35,4 +37,9 @@
     display: inline-block;
     margin: 1px;
     font-size: 16px;
+  }
+
+  #container3D canvas{
+    width: 800px;
+    height: 800px;
   }
