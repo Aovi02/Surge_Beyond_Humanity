@@ -24,13 +24,26 @@
     margin-bottom: 15px; /* Add spacing below the heading */
 }
 
-.purchase-button{
+.cesta_imagen{ /*ESTAS TRES SON CLASES PARA AJUSTAR Y QUE QUEDE TODO BONITO*/
+    width: 100px;height: 100px;
+}
+
+th.formato{
+    color: black;
+}
+div.main-class_extra{
+    padding-top: 100px; 
+    margin-left: 20px;
+}
+
+button.purchase-button{/*ESTO ES PARA QUE EL BOTON CAMBIE DE COLOR Y TAMAÑO CUANDO PASES EL RATÓN*/
     background-color: black;
     transition: background-color 0.5s;
 }
-.purchase-button:hover{
-    background-color: white;
+button.purchase-button:hover{
+    background-color: blue;
     color: red;
+    scale: 115%;
 }
 .bloques{/*ESTO ES PARA LOGRAR QUE EL REUSUMEN Y LOS CREDENCIALES SE ALINEEN*/
     column-count: 2;
