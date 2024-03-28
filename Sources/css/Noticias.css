@@ -1,4 +1,4 @@
-@media screen and (min-width: 1160px){
+@media screen and (min-width: 700px){
     div.columna2 {
         column-count: 2;
         column-gap: 20px;
@@ -18,40 +18,37 @@
     column-span: all;
     column-width: 500px;
   }
+
 #latest-news img{
-    width: 500px;
+    width: 100%;
     height: auto;
     display: block;
-
     padding-left: 3%;
-    margin-left: auto;
-    margin-right: 3%;
-    margin-left: 2%;
 }
 
 #latest-news-right img{
-    width: 500px;
+    width: 100%;
     height: auto;
     display: block;
     padding-right: 3%;
-    margin-left: 3%;
-    margin-right: auto;
-    margin-right: 2%;
 }
 
-#latest-title{
-    padding-left: 5%;
-    color: blueviolet;
-}
-#latest-text{
-    padding-left: 5%;
-    padding-right: 5%;
+.latest-text{
+    margin: 2%;
+    text-align: center;
 }
 #latest-news-video video{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-h1 {
-    text-align: center;
+h2{
+    margin-top: 10vh;
+    margin-left: 5%;
+}
+
+#latest-title{
+    margin-top: 25vh;
+    margin-left: 5%;
+    color: white;
 }

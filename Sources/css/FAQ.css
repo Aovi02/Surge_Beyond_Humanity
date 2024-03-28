@@ -14,7 +14,13 @@ main{
 
 .contact-form{
     margin: 10vh auto; /* Auto margin on top and bottom, and left and right */
-    width: 800px;
+    width: 100%;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+#emailHelp{
+    color: white;
 }
 
 /* Override Bootstrap accordion styles */

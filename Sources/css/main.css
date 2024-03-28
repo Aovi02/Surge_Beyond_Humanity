@@ -120,3 +120,7 @@ h2:hover{
     background: rgba(0, 0, 0, 0.5); /* Adjust the darkness level */
     z-index: 0;
 }
+
+@media screen and (min-width: 800px){
+    
+}
