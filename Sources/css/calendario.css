@@ -38,6 +38,7 @@ header .current-date{
   font-size: 1.45rem;
   font-weight: 500;
   color: black;
+  text-align: center;
 }
 .calendar{
   padding: 20px;
@@ -80,13 +81,25 @@ header .current-date{
   width: 450px; /* Adjust based on calendar width */
   border-radius: 10px;
   box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+  border: solid 1px white;
   z-index: 999;
+  transition: 0.2s;
 }
 
 #event-details .header {
-  background-color: #524d4d;
+  background-color: #2e2d2d;
   color: white;
+  text-align: center;
   padding: 10px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+}
+
+#event-details .content{
+  background-color: #574e70;
+  color: white;
+  height: 350px;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }

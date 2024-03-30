@@ -1,13 +1,13 @@
 [
     {
-      "name": "Event 1",
+      "name": "Egg Hunt is over",
       "day": 5,
-      "description": "Description of Event 1"
+      "description": "The event for egg hunts finished this day. You will have 14 more days to claim your prizes."
     },
     {
       "name": "Event 2",
       "day": 10,
-      "description": "Description of Event 2"
+      "description": "Release of "
     },
     {
       "name": "Event 3",
@@ -15,8 +15,8 @@
       "description": "Description of Event 3"
     },
     {
-      "name": "Event 4",
+      "name": "All out war in Europe",
       "day": 20,
-      "description": "Description of Event 4"
+      "description": "European tanks get a buff"
     }
   ]
