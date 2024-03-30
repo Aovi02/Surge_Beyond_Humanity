@@ -1,3 +1,7 @@
+.user-info-forms{
+    margin-left: 15vw;
+}
+
 /* Apply styling to all forms within the "user-info-forms" container */
 .user-info-forms form.info-form {
     margin-bottom: 20px; /* Add some spacing between forms */
@@ -18,6 +22,11 @@
     border-radius: 5px; /* Add border-radius for rounded corners */
 }
 
+.main-content{
+    margin-left: 5%;
+    margin-top: 25vh;
+}
+
 /* Style for the heading */
 .user-info-forms h2 {
     font-size: 1.5em; /* Increase heading font size */
@@ -36,15 +45,6 @@ div.main-class_extra{
     margin-left: 20px;
 }
 
-button.purchase-button{/*ESTO ES PARA QUE EL BOTON CAMBIE DE COLOR Y TAMAÑO CUANDO PASES EL RATÓN*/
-    background-color: black;
-    transition: background-color 0.5s;
-}
-button.purchase-button:hover{
-    background-color: blue;
-    color: red;
-    scale: 115%;
-}
 .bloques{/*ESTO ES PARA LOGRAR QUE EL REUSUMEN Y LOS CREDENCIALES SE ALINEEN*/
     column-count: 2;
     column-gap: 20px;
@@ -87,17 +87,28 @@ button.purchase-button:hover{
     font-weight: bold; /* Make the total row text bold for emphasis */
 }
 
+.cart-summary tr:hover{
+    background: white;
+    color: black;
+}
+
 /* Style for the purchase button */
-.cart-summary .purchase-button {
+.purchase-button {
     padding: 10px 20px; /* Add padding to the button for spacing */
     background-color: white; /* Set the background color to white */
     color: black; /* Set the text color to black */
     border: 1px solid #333; /* Add a subtle border */
     border-radius: 5px; /* Add border-radius for rounded corners */
     cursor: pointer; /* Add pointer cursor on hover */
+    transition: all 0.4s ease;
 }
 
 /* Hover effect for the purchase button */
-.cart-summary .purchase-button:hover {
+.purchase-button:hover {
     background-color: #f2f2f2; /* Change background color on hover */
+}
+
+.purchase-button:hover{
+    background-color: rgb(91, 205, 91);
+    scale: 115%;
 }

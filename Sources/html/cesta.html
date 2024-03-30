@@ -7,6 +7,9 @@
     <!-- Link to your CSS file for styling -->
     <link rel="stylesheet" type="text/css" href="../css/comun.css"/>
     <link rel="stylesheet" type="text/css" href="../css/cesta.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 <!-- Navigation Bar -->
@@ -38,14 +41,14 @@
 </nav>
 
 <!-- Main Content -->
-<div class="main-content main-class_extra">
+<div class="main-content">
  <div class="bloques">
     <!-- Cart Summary -->
     <div class="cart-summary">
         <h2>Shopping Cart</h2>
 
         <!-- Cart Table -->
-        <table>
+        <table id="cesta">
             <thead>
                 <tr>
                     <th class="formato">Product</th>
@@ -67,7 +70,7 @@
                 <!-- Total Row -->
                 <tr class="total-row">
                     <td>Total</td>
-                    <td>$30</td>
+                    <td>$0</td>
                 </tr>
             </tbody>
         </table>
@@ -124,6 +127,6 @@
         <p><a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-of-service.html">Terms of Service</a> | <a href="work-with-us.html">Work with us</a></p>
     </div>
 </footer>
-
+<script src="../js/cesta.js"></script>
 </body>
 </html>

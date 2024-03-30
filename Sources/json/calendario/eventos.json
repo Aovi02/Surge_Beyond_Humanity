@@ -1,0 +1,22 @@
+[
+    {
+      "name": "Event 1",
+      "day": 5,
+      "description": "Description of Event 1"
+    },
+    {
+      "name": "Event 2",
+      "day": 10,
+      "description": "Description of Event 2"
+    },
+    {
+      "name": "Event 3",
+      "day": 15,
+      "description": "Description of Event 3"
+    },
+    {
+      "name": "Event 4",
+      "day": 20,
+      "description": "Description of Event 4"
+    }
+  ]
