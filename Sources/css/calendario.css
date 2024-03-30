@@ -71,3 +71,22 @@ header .current-date{
   position: relative;
   margin-top: 30px;
 }
+
+#event-details {
+  display: none;
+  position: absolute;
+  top: 25vh;
+  right: 10%;
+  width: 450px; /* Adjust based on calendar width */
+  border-radius: 10px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+  z-index: 999;
+}
+
+#event-details .header {
+  background-color: #524d4d;
+  color: white;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
