@@ -257,6 +257,33 @@ h2{
   scale: 1.05;
 }
 
+.counter{
+    display: inline;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.check-cart-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    padding: 20px 30px;
+    background-color: #117913;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.check-cart-button:hover{
+    background-color: #04AA6D;
+    color: black;
+    box-shadow: 0 5px 5px 0 rgba(255,255,255, 0.24), 0 10px 5px 0 rgba(255,255,255,0, 0.19);
+    scale: 1.05;
+}
+
 #item1{
     background-image: url(../../Resources/Images/shop_item_1.jpg);
     background-position: 50% 50%;
