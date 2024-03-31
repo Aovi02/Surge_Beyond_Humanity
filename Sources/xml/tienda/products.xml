@@ -1,0 +1,74 @@
+<products>
+    <product>
+        <id>1</id>
+        <name>TU-37 Fury skin</name>
+        <image>../../Resources/Images/shop_item_1.jpg</image>
+        <price>1.00$</price>
+    </product>
+    <product>
+        <id>2</id>
+        <name>Pacekeeper Hydrogen Skin</name>
+        <image>../../Resources/Images/shop_item_2.jpg</image>
+        <price>1.00$</price>
+    </product>
+    <product>
+        <id>3</id>
+        <name>Glock 22 Fire Breath Skin</name>
+        <image>../../Resources/Images/shop_item_3.jpg</image>
+        <price>2.05$</price>
+    </product>
+    <product>
+        <id>4</id>
+        <name>SZ-25 Neon Skin</name>
+        <image>../../Resources/Images/shop_item_4.jpg</image>
+        <price>2.99$</price>
+    </product>
+    <product>
+        <id>5</id>
+        <name>Rattle Neon Skin</name>
+        <image>../../Resources/Images/shop_item_5.jpg</image>
+        <price>2.99$</price>
+    </product>
+    <product>
+        <id>6</id>
+        <name>Vanquisher Skin</name>
+        <image>../../Resources/Images/shop_item_6.jpg</image>
+        <price>2.99$</price>
+    </product>
+    <product>
+        <id>7</id>
+        <name>MW Modern Poison Skin</name>
+        <image>../../Resources/Images/shop_item_7.jpg</image>
+        <price>1.99$</price>
+    </product>
+    <product>
+        <id>8</id>
+        <name>Usurper Neon Skin</name>
+        <image>../../Resources/Images/shop_item_8.jpg</image>
+        <price>3.99$</price>
+    </product>
+    <product>
+        <id>9</id>
+        <name>Von-Ghan Neon Skin</name>
+        <image>../../Resources/Images/shop_item_9.jpg</image>
+        <price>2.99$</price>
+    </product>
+    <product>
+        <id>10</id>
+        <name>Flamethrower Titanium Skin</name>
+        <image>../../Resources/Images/shop_item_10.jpg</image>
+        <price>3.99$</price>
+    </product>
+    <product>
+        <id>11</id>
+        <name>AUG-34 Present Skin</name>
+        <image>../../Resources/Images/shop_item_11.jpg</image>
+        <price>1.99$</price>
+    </product>
+    <product>
+        <id>12</id>
+        <name>Big Boss Neon Skin</name>
+        <image>../../Resources/Images/shop_item_12.jpg</image>
+        <price>4.99$</price>
+    </product>
+</products>
