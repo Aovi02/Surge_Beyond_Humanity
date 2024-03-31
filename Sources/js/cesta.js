@@ -3,6 +3,7 @@ window.onload = function() {
     var rows = table.getElementsByTagName("tr");
     var total = 0;
 
+    //Coger datos de las filas y sumarlas
     for (var i = 0; i < rows.length; i++) {
         var cells = rows[i].getElementsByTagName("td");
         if (cells.length >= 2) {
@@ -11,7 +12,7 @@ window.onload = function() {
         }
     }
 
-    // Update the total in the last row
+    //Meter datos en la última fila
     var totalRow = document.querySelector(".total-row td:last-child");
     totalRow.innerText = "$" + total.toFixed(2);
 };

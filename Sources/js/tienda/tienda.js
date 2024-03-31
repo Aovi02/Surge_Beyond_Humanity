@@ -1,23 +1,23 @@
 document.addEventListener("DOMContentLoaded", function() {
     const purchaseButtons = document.querySelectorAll(".purchase-button");
     
+    //Para TODOS los botones de compra
     purchaseButtons.forEach(button => {
         button.addEventListener("click", function() {
             if (!button.classList.contains("added-to-cart")) {
                 button.classList.add("added-to-cart");
                 button.textContent = "Added to cart";
                 
-                // Create a "Check cart" button
+                //Creamos un botón nuevo
                 const checkCartButton = document.createElement("button");
                 checkCartButton.textContent = "Check cart";
                 checkCartButton.classList.add("check-cart-button");
                 
-                // Append the "Check cart" button to the document body
+                //Añadimos el botón al documento
                 document.body.appendChild(checkCartButton);
                 
-                // Add event listener to "Check cart" button
+                //Para redirigir al carrito
                 checkCartButton.addEventListener("click", function() {
-                    // Redirect to cart.html
                     window.location.href = "cesta.html";
                 });
             }

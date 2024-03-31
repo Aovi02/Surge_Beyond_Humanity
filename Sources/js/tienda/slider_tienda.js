@@ -1,43 +1,40 @@
 const slides = document.querySelectorAll('.slide');
 const next = document.querySelector('#next');
 const prev = document.querySelector('#prev');
-const auto = true; // Auto scroll
-const intervalTime = 5000;
+const auto = true; //Automático
+const intervalTime = 3000;
 let slideInterval;
 
 const nextSlide = () => {
-  // Get current class
+  //Coger clase actual
   const current = document.querySelector('.current');
-  // Remove current class
+  //Quitarla
   current.classList.remove('current');
-  // Check for next slide
+  //Buscar siguiente slide
   if (current.nextElementSibling) {
-    // Add current to next sibling
+    //Añadirle el current a este slide
     current.nextElementSibling.classList.add('current');
   } else {
-    // Add current to start
+    //Si no tiene siguiente slide, volvemos al principio
     slides[0].classList.add('current');
   }
   setTimeout(() => current.classList.remove('current'));
 };
 
 const prevSlide = () => {
-  // Get current class
   const current = document.querySelector('.current');
-  // Remove current class
   current.classList.remove('current');
-  // Check for prev slide
+  //Buscar slide anterior
   if (current.previousElementSibling) {
-    // Add current to prev sibling
     current.previousElementSibling.classList.add('current');
   } else {
-    // Add current to last
+    //Si no tiene anterior slide, vamos al final
     slides[slides.length - 1].classList.add('current');
   }
   setTimeout(() => current.classList.remove('current'));
 };
 
-// Button events
+//Eventos para los botones
 next.addEventListener('click', e => {
   nextSlide();
   if (auto) {
@@ -54,8 +51,7 @@ prev.addEventListener('click', e => {
   }
 });
 
-// Auto slide
+//Auto slide
 if (auto) {
-  // Run next slide at interval time
   slideInterval = setInterval(nextSlide, intervalTime);
 }

@@ -8,7 +8,7 @@ $(document).ready(function() {
       var day = $(this).text();
       var eventFound = false;
 
-      // Check if there is an event on the clicked day
+      //Comprobar si el día coincide con algún día válido del JSON (es decir, tiene evento)
       for (var i = 0; i < events.length; i++) {
         if (events[i].day == day) {
           var eventHeader = events[i].name;
@@ -19,7 +19,7 @@ $(document).ready(function() {
           break;
         }
       }
-      // If no event found, hide event details box
+      //Esconder caja si no tiene evento
       if (!eventFound) {
         $('#event-details').hide();
       }
