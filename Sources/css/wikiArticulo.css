@@ -9,7 +9,6 @@
     float: right;
     margin-right: 5vh;
     box-sizing: border-box;
-    font-family: ui-sans-serif; /*Fuente Aqui*/
     max-width: 300px;
     color: #dcddde;
     border: 2px solid rgba(255, 255, 255, 0.1);
@@ -18,9 +17,10 @@
     padding-right: 12px;
     padding-bottom: 12px;
   }
-  /* Definición de cabezera */
+
+
   .infocaja .titulo {
-    background-color: rgba(255, 255, 255, 0.1);/*Color del fondito*/
+    background-color: rgba(255, 255, 255, 0.1);
     text-align: center;
   }
   .infocaja .titulo h2 {
@@ -31,10 +31,9 @@
   }
   
   .infocaja-img {
-    /*Anchura bloque*/
     width: 100%;
   }
-  /* Repasar inline-block porque no entiendo del todo bien por que tengo que separar */
+
   .infocaja-fila .data-cabeza,
   .infocaja-fila .data-cuerpo {
     display: inline-block;

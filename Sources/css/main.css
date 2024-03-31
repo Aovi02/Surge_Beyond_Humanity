@@ -62,16 +62,16 @@ h2:hover{
     margin: 0;
 }
 
-/* Hover effect for news box */
+
 .news-box:hover {
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* White shadow effect */
-    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); 
+    transform: scale(1.05);
 }
 
 #banner {
     position: relative;
     width: 100%;
-    height: 100vh; /* Adjust the height based on your design preferences */
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -86,7 +86,7 @@ h2:hover{
 
 #bannerVideo {
     width: 100%;
-    transform: scale(1.7); /* Zoom in effect */
+    transform: scale(1.7);
 }
 
 #banner-content {
@@ -96,20 +96,20 @@ h2:hover{
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-    z-index: 1; /* Ensure the text appears above the video */
+    z-index: 1; 
 }
 
 #banner-content h1 {
-    font-size: 5em; /* Adjust the font size based on your design preferences */
+    font-size: 5em;
     margin-bottom: 10px;
 }
 
 #banner-content p {
-    font-size: 2em; /* Adjust the font size based on your design preferences */
+    font-size: 2em;
     margin: 0;
 }
 
-/* Darken the video background */
+
 .banner-video-container::before {
     content: "";
     position: absolute;
@@ -117,10 +117,6 @@ h2:hover{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Adjust the darkness level */
+    background: rgba(0, 0, 0, 0.5);
     z-index: 0;
-}
-
-@media screen and (min-width: 800px){
-    
 }

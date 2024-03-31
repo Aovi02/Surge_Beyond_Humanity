@@ -63,8 +63,7 @@ h2{
     margin: 0;
 }
 
-/* Hover effect for news box */
 .news-box:hover {
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* White shadow effect */
-    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    transform: scale(1.05);
 }

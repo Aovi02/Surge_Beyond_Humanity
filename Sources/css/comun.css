@@ -61,14 +61,14 @@ body{
 }
 
 .social-item img {
-    width: 40px; /* Adjust the size according to your preference */
+    width: 40px;
 }
 
 .legal-info {
     font-size: 14px;
 }
 
-/* Hover effect for links */
+
 .legal-info a {
     color: white;
     text-decoration: none;
@@ -76,5 +76,5 @@ body{
 }
 
 .legal-info a:hover {
-    color: #FFD700; /* Change to your preferred hover color */
+    color: #FFD700;
 }
