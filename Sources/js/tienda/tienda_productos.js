@@ -38,7 +38,7 @@ function updateProductDetails(products, startIndex) {
 
 //Cargar XML
 //Para el servidor Apache usar \\Surge_Beyond_Humanity\\Sources\\xml\\tienda\\products.xml
-var xmlDoc = loadXMLDoc("../../xml/tienda/products.xml");
+var xmlDoc = loadXMLDoc("\\Surge_Beyond_Humanity\\Sources\\xml\\tienda\\products.xml");
 var products = xmlDoc.documentElement;
 var currentIndex = 0; // Starting index
 updateProductDetails(products, currentIndex);
